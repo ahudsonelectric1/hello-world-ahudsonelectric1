@@ -1,17 +1,17 @@
-name: CI
+name: ahudsonelectric1
 
 on: [push]
-
-jobs:
+github.com
+jobs:coding 
   build:
-
-    runs-on: ubuntu-latest
+none
+    runs-on: windows 11
 
     steps:
     - uses: actions/checkout@v2
     - name: Run a one-line script
       run: echo Hello, world!
     - name: Run a multi-line script
-      run: |
+      run: echo Hello, world!,
         echo Add other actions to build,
         echo test, and deploy your project.
